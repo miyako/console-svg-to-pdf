@@ -19,7 +19,9 @@ static void usage(void){
     fprintf(stderr, " -%c number: %s\n", OPT_HEIGHT, "height");        
     fprintf(stderr, " -%c number: %s\n", OPT_KEEP_ASPECT_RATIO, "keep aspect ratio"); 
     fprintf(stderr, " -%c number: %s\n", OPT_ZOOM , "zoom");       
-    fprintf(stderr, " -%c number: %s\n", OPT_URI , "uri");    
+    fprintf(stderr, " -%c string: %s\n", OPT_URI , "uri");    
+    fprintf(stderr, " -%c string: %s\n", OPT_INPUT , "input"); 
+    fprintf(stderr, " -%c string: %s\n", OPT_OUTPUT , "output"); 
     
     exit(1);
 }
