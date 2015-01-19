@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D1482DC81A67F51F0020E7AF /* wasvg.cc in Sources */ = {isa = PBXBuildFile; fileRef = D1482DC71A67F51F0020E7AF /* wasvg.cc */; };
+		D1482DD51A6802110020E7AF /* libcairo.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D1482DCA1A67F70D0020E7AF /* libcairo.2.dylib */; };
+		D1482DD61A6802110020E7AF /* libglib-2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D1482DCE1A67F73C0020E7AF /* libglib-2.0.0.dylib */; };
+		D1482DD71A6802110020E7AF /* libgobject-2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D1482DD01A67F74A0020E7AF /* libgobject-2.0.0.dylib */; };
+		D1482DD81A6802110020E7AF /* libpango-1.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D1482DD31A6801EF0020E7AF /* libpango-1.0.0.dylib */; };
+		D1482DD91A6802110020E7AF /* librsvg-2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D1482DCC1A67F71D0020E7AF /* librsvg-2.2.dylib */; };
+		D1482DEE1A6802110020E7AF /* libcroco-0.6.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D1482DDA1A6802110020E7AF /* libcroco-0.6.3.dylib */; };
+		D1482DEF1A6802110020E7AF /* libffi.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D1482DDB1A6802110020E7AF /* libffi.6.dylib */; };
+		D1482DF01A6802110020E7AF /* libfontconfig.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D1482DDC1A6802110020E7AF /* libfontconfig.1.dylib */; };
+		D1482DF11A6802110020E7AF /* libfreetype.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D1482DDD1A6802110020E7AF /* libfreetype.6.dylib */; };
+		D1482DF21A6802110020E7AF /* libgdk_pixbuf-2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D1482DDE1A6802110020E7AF /* libgdk_pixbuf-2.0.0.dylib */; };
+		D1482DF31A6802110020E7AF /* libgio-2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D1482DDF1A6802110020E7AF /* libgio-2.0.0.dylib */; };
+		D1482DF41A6802110020E7AF /* libgmodule-2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D1482DE01A6802110020E7AF /* libgmodule-2.0.0.dylib */; };
+		D1482DF51A6802110020E7AF /* libgthread-2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D1482DE11A6802110020E7AF /* libgthread-2.0.0.dylib */; };
+		D1482DF61A6802110020E7AF /* libharfbuzz.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D1482DE21A6802110020E7AF /* libharfbuzz.0.dylib */; };
+		D1482DF91A6802110020E7AF /* libjpeg.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D1482DE51A6802110020E7AF /* libjpeg.9.dylib */; };
+		D1482DFA1A6802110020E7AF /* liblzma.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D1482DE61A6802110020E7AF /* liblzma.5.dylib */; };
+		D1482DFB1A6802110020E7AF /* libpangocairo-1.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D1482DE71A6802110020E7AF /* libpangocairo-1.0.0.dylib */; };
+		D1482DFC1A6802110020E7AF /* libpangoft2-1.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D1482DE81A6802110020E7AF /* libpangoft2-1.0.0.dylib */; };
+		D1482DFD1A6802110020E7AF /* libpixman-1.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D1482DE91A6802110020E7AF /* libpixman-1.0.dylib */; };
+		D1482DFE1A6802110020E7AF /* libpng16.16.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D1482DEA1A6802110020E7AF /* libpng16.16.dylib */; };
+		D1482DFF1A6802110020E7AF /* libtiff.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D1482DEB1A6802110020E7AF /* libtiff.5.dylib */; };
+		D1482E001A6802110020E7AF /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D1482DEC1A6802110020E7AF /* libxml2.2.dylib */; };
+		D1482E011A6802110020E7AF /* libz.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D1482DED1A6802110020E7AF /* libz.1.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D1482DBB1A67F4D00020E7AF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D1482DBD1A67F4D00020E7AF /* wasvgtopdf */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = wasvgtopdf; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1482DC71A67F51F0020E7AF /* wasvg.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = wasvg.cc; path = ../../../wasvg.cc; sourceTree = "<group>"; };
+		D1482DC91A67F5450020E7AF /* wasvg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = wasvg.h; path = ../../../wasvg.h; sourceTree = "<group>"; };
+		D1482DCA1A67F70D0020E7AF /* libcairo.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcairo.2.dylib; path = ../../MacOS/libcairo.2.dylib; sourceTree = "<group>"; };
+		D1482DCC1A67F71D0020E7AF /* librsvg-2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "librsvg-2.2.dylib"; path = "../../MacOS/librsvg-2.2.dylib"; sourceTree = "<group>"; };
+		D1482DCE1A67F73C0020E7AF /* libglib-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libglib-2.0.0.dylib"; path = "../../MacOS/libglib-2.0.0.dylib"; sourceTree = "<group>"; };
+		D1482DD01A67F74A0020E7AF /* libgobject-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libgobject-2.0.0.dylib"; path = "../../MacOS/libgobject-2.0.0.dylib"; sourceTree = "<group>"; };
+		D1482DD31A6801EF0020E7AF /* libpango-1.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libpango-1.0.0.dylib"; path = "../../MacOS/libpango-1.0.0.dylib"; sourceTree = "<group>"; };
+		D1482DDA1A6802110020E7AF /* libcroco-0.6.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libcroco-0.6.3.dylib"; path = "../../MacOS/libcroco-0.6.3.dylib"; sourceTree = "<group>"; };
+		D1482DDB1A6802110020E7AF /* libffi.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libffi.6.dylib; path = ../../MacOS/libffi.6.dylib; sourceTree = "<group>"; };
+		D1482DDC1A6802110020E7AF /* libfontconfig.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfontconfig.1.dylib; path = ../../MacOS/libfontconfig.1.dylib; sourceTree = "<group>"; };
+		D1482DDD1A6802110020E7AF /* libfreetype.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfreetype.6.dylib; path = ../../MacOS/libfreetype.6.dylib; sourceTree = "<group>"; };
+		D1482DDE1A6802110020E7AF /* libgdk_pixbuf-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libgdk_pixbuf-2.0.0.dylib"; path = "../../MacOS/libgdk_pixbuf-2.0.0.dylib"; sourceTree = "<group>"; };
+		D1482DDF1A6802110020E7AF /* libgio-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libgio-2.0.0.dylib"; path = "../../MacOS/libgio-2.0.0.dylib"; sourceTree = "<group>"; };
+		D1482DE01A6802110020E7AF /* libgmodule-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libgmodule-2.0.0.dylib"; path = "../../MacOS/libgmodule-2.0.0.dylib"; sourceTree = "<group>"; };
+		D1482DE11A6802110020E7AF /* libgthread-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libgthread-2.0.0.dylib"; path = "../../MacOS/libgthread-2.0.0.dylib"; sourceTree = "<group>"; };
+		D1482DE21A6802110020E7AF /* libharfbuzz.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libharfbuzz.0.dylib; path = ../../MacOS/libharfbuzz.0.dylib; sourceTree = "<group>"; };
+		D1482DE51A6802110020E7AF /* libjpeg.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libjpeg.9.dylib; path = ../../MacOS/libjpeg.9.dylib; sourceTree = "<group>"; };
+		D1482DE61A6802110020E7AF /* liblzma.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = liblzma.5.dylib; path = ../../MacOS/liblzma.5.dylib; sourceTree = "<group>"; };
+		D1482DE71A6802110020E7AF /* libpangocairo-1.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libpangocairo-1.0.0.dylib"; path = "../../MacOS/libpangocairo-1.0.0.dylib"; sourceTree = "<group>"; };
+		D1482DE81A6802110020E7AF /* libpangoft2-1.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libpangoft2-1.0.0.dylib"; path = "../../MacOS/libpangoft2-1.0.0.dylib"; sourceTree = "<group>"; };
+		D1482DE91A6802110020E7AF /* libpixman-1.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libpixman-1.0.dylib"; path = "../../MacOS/libpixman-1.0.dylib"; sourceTree = "<group>"; };
+		D1482DEA1A6802110020E7AF /* libpng16.16.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libpng16.16.dylib; path = ../../MacOS/libpng16.16.dylib; sourceTree = "<group>"; };
+		D1482DEB1A6802110020E7AF /* libtiff.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libtiff.5.dylib; path = ../../MacOS/libtiff.5.dylib; sourceTree = "<group>"; };
+		D1482DEC1A6802110020E7AF /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = ../../MacOS/libxml2.2.dylib; sourceTree = "<group>"; };
+		D1482DED1A6802110020E7AF /* libz.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.dylib; path = ../../MacOS/libz.1.dylib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1482DBA1A67F4D00020E7AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1482DEE1A6802110020E7AF /* libcroco-0.6.3.dylib in Frameworks */,
+				D1482DEF1A6802110020E7AF /* libffi.6.dylib in Frameworks */,
+				D1482DF01A6802110020E7AF /* libfontconfig.1.dylib in Frameworks */,
+				D1482DF11A6802110020E7AF /* libfreetype.6.dylib in Frameworks */,
+				D1482DF21A6802110020E7AF /* libgdk_pixbuf-2.0.0.dylib in Frameworks */,
+				D1482DF31A6802110020E7AF /* libgio-2.0.0.dylib in Frameworks */,
+				D1482DF41A6802110020E7AF /* libgmodule-2.0.0.dylib in Frameworks */,
+				D1482DF51A6802110020E7AF /* libgthread-2.0.0.dylib in Frameworks */,
+				D1482DF61A6802110020E7AF /* libharfbuzz.0.dylib in Frameworks */,
+				D1482DF91A6802110020E7AF /* libjpeg.9.dylib in Frameworks */,
+				D1482DFA1A6802110020E7AF /* liblzma.5.dylib in Frameworks */,
+				D1482DFB1A6802110020E7AF /* libpangocairo-1.0.0.dylib in Frameworks */,
+				D1482DFC1A6802110020E7AF /* libpangoft2-1.0.0.dylib in Frameworks */,
+				D1482DFD1A6802110020E7AF /* libpixman-1.0.dylib in Frameworks */,
+				D1482DFE1A6802110020E7AF /* libpng16.16.dylib in Frameworks */,
+				D1482DFF1A6802110020E7AF /* libtiff.5.dylib in Frameworks */,
+				D1482E001A6802110020E7AF /* libxml2.2.dylib in Frameworks */,
+				D1482E011A6802110020E7AF /* libz.1.dylib in Frameworks */,
+				D1482DD51A6802110020E7AF /* libcairo.2.dylib in Frameworks */,
+				D1482DD61A6802110020E7AF /* libglib-2.0.0.dylib in Frameworks */,
+				D1482DD71A6802110020E7AF /* libgobject-2.0.0.dylib in Frameworks */,
+				D1482DD81A6802110020E7AF /* libpango-1.0.0.dylib in Frameworks */,
+				D1482DD91A6802110020E7AF /* librsvg-2.2.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D1482DB41A67F4D00020E7AF = {
+			isa = PBXGroup;
+			children = (
+				D1482E021A6805250020E7AF /* dylib */,
+				D1482DBF1A67F4D00020E7AF /* wasvgtopdf */,
+				D1482DBE1A67F4D00020E7AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D1482DBE1A67F4D00020E7AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1482DBD1A67F4D00020E7AF /* wasvgtopdf */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D1482DBF1A67F4D00020E7AF /* wasvgtopdf */ = {
+			isa = PBXGroup;
+			children = (
+				D1482DC71A67F51F0020E7AF /* wasvg.cc */,
+				D1482DC91A67F5450020E7AF /* wasvg.h */,
+			);
+			path = wasvgtopdf;
+			sourceTree = "<group>";
+		};
+		D1482E021A6805250020E7AF /* dylib */ = {
+			isa = PBXGroup;
+			children = (
+				D1482DDA1A6802110020E7AF /* libcroco-0.6.3.dylib */,
+				D1482DDB1A6802110020E7AF /* libffi.6.dylib */,
+				D1482DDC1A6802110020E7AF /* libfontconfig.1.dylib */,
+				D1482DDD1A6802110020E7AF /* libfreetype.6.dylib */,
+				D1482DDE1A6802110020E7AF /* libgdk_pixbuf-2.0.0.dylib */,
+				D1482DDF1A6802110020E7AF /* libgio-2.0.0.dylib */,
+				D1482DE01A6802110020E7AF /* libgmodule-2.0.0.dylib */,
+				D1482DE11A6802110020E7AF /* libgthread-2.0.0.dylib */,
+				D1482DE21A6802110020E7AF /* libharfbuzz.0.dylib */,
+				D1482DE51A6802110020E7AF /* libjpeg.9.dylib */,
+				D1482DE61A6802110020E7AF /* liblzma.5.dylib */,
+				D1482DE71A6802110020E7AF /* libpangocairo-1.0.0.dylib */,
+				D1482DE81A6802110020E7AF /* libpangoft2-1.0.0.dylib */,
+				D1482DE91A6802110020E7AF /* libpixman-1.0.dylib */,
+				D1482DEA1A6802110020E7AF /* libpng16.16.dylib */,
+				D1482DEB1A6802110020E7AF /* libtiff.5.dylib */,
+				D1482DEC1A6802110020E7AF /* libxml2.2.dylib */,
+				D1482DED1A6802110020E7AF /* libz.1.dylib */,
+				D1482DD31A6801EF0020E7AF /* libpango-1.0.0.dylib */,
+				D1482DD01A67F74A0020E7AF /* libgobject-2.0.0.dylib */,
+				D1482DCE1A67F73C0020E7AF /* libglib-2.0.0.dylib */,
+				D1482DCC1A67F71D0020E7AF /* librsvg-2.2.dylib */,
+				D1482DCA1A67F70D0020E7AF /* libcairo.2.dylib */,
+			);
+			name = dylib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D1482DBC1A67F4D00020E7AF /* wasvgtopdf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1482DC41A67F4D00020E7AF /* Build configuration list for PBXNativeTarget "wasvgtopdf" */;
+			buildPhases = (
+				D1482DB91A67F4D00020E7AF /* Sources */,
+				D1482DBA1A67F4D00020E7AF /* Frameworks */,
+				D1482DBB1A67F4D00020E7AF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wasvgtopdf;
+			productName = wasvgtopdf;
+			productReference = D1482DBD1A67F4D00020E7AF /* wasvgtopdf */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D1482DB51A67F4D00020E7AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = miyako;
+				TargetAttributes = {
+					D1482DBC1A67F4D00020E7AF = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = D1482DB81A67F4D00020E7AF /* Build configuration list for PBXProject "wasvgtopdf" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D1482DB41A67F4D00020E7AF;
+			productRefGroup = D1482DBE1A67F4D00020E7AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1482DBC1A67F4D00020E7AF /* wasvgtopdf */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D1482DB91A67F4D00020E7AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1482DC81A67F51F0020E7AF /* wasvg.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D1482DC21A67F4D00020E7AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/include/cairo,
+					"/usr/local/include/librsvg-2.0/librsvg",
+					"/usr/local/include/glib-2.0",
+					"/usr/local/include/gdk-pixbuf-2.0",
+					/usr/local/include,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.8;
+				USER_HEADER_SEARCH_PATHS = "/usr/local/include/cairo /usr/local/include/librsvg-2.0/librsvg /usr/local/include/glib-2.0 /usr/local/include/gdk-pixbuf-2.0";
+			};
+			name = Debug;
+		};
+		D1482DC31A67F4D00020E7AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/include/cairo,
+					"/usr/local/include/librsvg-2.0/librsvg",
+					"/usr/local/include/glib-2.0",
+					"/usr/local/include/gdk-pixbuf-2.0",
+					/usr/local/include,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx10.8;
+				USER_HEADER_SEARCH_PATHS = "/usr/local/include/cairo /usr/local/include/librsvg-2.0/librsvg /usr/local/include/glib-2.0 /usr/local/include/gdk-pixbuf-2.0";
+			};
+			name = Release;
+		};
+		D1482DC51A67F4D00020E7AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/miyako/Desktop/wasvgtopdf/MacOS,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D1482DC61A67F4D00020E7AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/miyako/Desktop/wasvgtopdf/MacOS,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D1482DB81A67F4D00020E7AF /* Build configuration list for PBXProject "wasvgtopdf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1482DC21A67F4D00020E7AF /* Debug */,
+				D1482DC31A67F4D00020E7AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1482DC41A67F4D00020E7AF /* Build configuration list for PBXNativeTarget "wasvgtopdf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1482DC51A67F4D00020E7AF /* Debug */,
+				D1482DC61A67F4D00020E7AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D1482DB51A67F4D00020E7AF /* Project object */;
+}

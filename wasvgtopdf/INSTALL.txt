@@ -1,0 +1,44 @@
+# Mac OS X
+
+export CC="gcc"
+export CXX="g++"
+export CCFLAGS="-arch x86_64"
+export CXXFLAGS="-arch x86_64"
+export CFLAGS="-arch x86_64 -mmacosx-version-min=10.8"
+export LDFLAGS="-arch x86_64 -mmacosx-version-min=10.8 -L/usr/local/lib"
+export CPPFLAGS="-arch x86_64 -mmacosx-version-min=10.8 -I/usr/local/include -I/usr/local/include/cairo"
+export PKG_CONFIG=/usr/local/bin/pkg-config
+export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig
+
+# Ubuntu
+
+export LD_LIBRARY_PATH='/usr/local/lib:/usr/lib'
+export LD_RUN_PATH='/usr/local/lib:/usr/lib'
+
+export LDFLAGS="-L/usr/local/lib"
+export CPPFLAGS="-I/usr/local/include"
+
+readelf -d 
+chrpath -r '$ORIGIN' 
+
+#MinGW64
+
+export CC="x86_64-w64-mingw32-gcc"
+export AR="x86_64-w64-mingw32-ar"
+export RANLIB="x86_64-w64-mingw32-ranlib"
+export PKG_CONFIG=/usr/local/bin/pkg-config.exe
+export LDFLAGS="-L/usr/local/lib"
+
+export CFLAGS="-L/usr/local/lib -I/usr/local/include -I/usr/local/include/boost"
+export CPPFLAGS="-I/usr/local/include -I/usr/local/include/boost"
+
+./configure --host=x86_64-w64-mingw32
+
+----------------------------------------
+
+pango
+./configure --with-included-modules=arabic-lang,basic-fc,basic-win32,basic-coretext,indic-lang
+
+gdk-pixbuf
+./configure --with-included-loaders=ani,icns,pcx,ras,tga,png,pnm,wbmp,xbm,xpm,qtif,bmp,gif,ico,jpeg,tiff --disable-glibtest 
+
